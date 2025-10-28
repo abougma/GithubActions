@@ -3,7 +3,6 @@ set -euo pipefail
 
 echo "Starting CI test script"
 
-# Simple environment checks (example tests)
 echo "Checking for bash..."
 if ! command -v bash >/dev/null; then
   echo "bash not found" >&2
